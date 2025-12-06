@@ -10,7 +10,7 @@ public static void main(String[] args) {
 	int j=str.length()-1;
 	boolean flag=true;
 	for(int i=0;i<str.length()/2;i++) {
-		if(str.charAt(i)!=str.charAt(j)) {
+		if(Character.toLowerCase(str.charAt(i)) !=Character.toLowerCase(str.charAt(j))) {
 			flag=false;
 		break;
 		}
