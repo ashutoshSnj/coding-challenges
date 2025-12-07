@@ -9,6 +9,8 @@ public static void main(String[] args) {
 	Scanner sc=new Scanner (System.in);
 	System.out.println("Enter the String = ");
 	String str=sc.nextLine();
+	final int var;
+
 	List <Character> Vowels=new ArrayList<Character>();
 	List <Character> Consonants=new ArrayList<Character>();
 	for(int i=0;i<str.length();i++) {
