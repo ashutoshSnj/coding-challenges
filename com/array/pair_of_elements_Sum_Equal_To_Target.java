@@ -16,6 +16,7 @@ public class pair_of_elements_Sum_Equal_To_Target {
 			 }
 		 }
 	}
+	
 	//O(n)
 	
 	HashSet<Integer>set=new HashSet<Integer>();
