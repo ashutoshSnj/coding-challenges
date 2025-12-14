@@ -25,7 +25,8 @@ public class Longest_String {
 				   current.append(str.charAt(j));
 			   }
 			   if(current.length()>largest.length()) {
-				   largest=current;
+				 largest = new StringBuilder(current);
+
 				   
 			   }
 			   
