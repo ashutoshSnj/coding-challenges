@@ -80,7 +80,7 @@ public static void main(String[] args) {
 	        for(int i=0;i<str.length();i++) {
 	        	char ch=str.charAt(i);
 	        	while(list.contains(str.charAt(i))){
-	        		System.out.println(str.charAt(start));
+	        	//	System.out.println(str.charAt(start));
 	        		list.remove((Character) str.charAt(start));
 	        		start++;
 	        	}
